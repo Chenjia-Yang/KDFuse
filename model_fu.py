@@ -29,7 +29,6 @@ def activation(act_type, inplace=True, neg_slope=0.05, n_prelu=1):
         act_func = nn.LeakyReLU(neg_slope, inplace)
     elif act_type == 'prelu':
         act_func = nn.PReLU(num_parameters=n_prelu, init=neg_slope)
-    # TODO: 新增silu和gelu激活函数
     elif act_type == 'silu':
         pass
     elif act_type == 'gelu':
