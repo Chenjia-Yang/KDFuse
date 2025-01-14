@@ -2,6 +2,7 @@
 This is official Pytorch implementation of "KDFuse: A High-Level Vision Task-driven Infrared and Visible Image Fusion Method Based on Cross-Domain Knowledge Distillation"
 
 # Framework
+The overall framework of the proposed KDFuse.
 ![image](https://github.com/Chenjia-Yang/KDFuse/blob/main/image/framework.png)
 
 # Pre-trained SegFormer Checkpoint preparation
