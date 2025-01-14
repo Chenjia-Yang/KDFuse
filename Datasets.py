@@ -65,8 +65,8 @@ class Fusion_dataset(Dataset):
 class Test_dataset(Dataset):
     def __init__(self, transform = to_tensor):
         super(Test_dataset, self).__init__()
-        data_dir_vis = '/mnt/raid1/data_work/MSRS/test/vi/'  #MSRS
-        data_dir_ir = '/mnt/raid1/data_work/MSRS/test/ir/'
+        data_dir_vis = './image/vi/'
+        data_dir_ir = './image/ir/'
         self.filepath_vis, self.filenames_vis = prepare_data_path(data_dir_vis)
         self.filepath_ir, self.filenames_ir = prepare_data_path(data_dir_ir)
         # self.filepath_label, self.filenames_label = prepare_data_path(data_dir_label)
