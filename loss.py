@@ -28,20 +28,6 @@ class OhemCELoss(nn.Module):
         return torch.mean(loss)
 
 
-# class SoftmaxFocalLoss(nn.Module):
-#     def __init__(self, gamma, ignore_lb=255, *args, **kwargs):
-#         super(FocalLoss, self).__init__()
-#         self.gamma = gamma
-#         self.nll = nn.NLLLoss(ignore_index=ignore_lb)
-#
-#     def forward(self, logits, labels):
-#         scores = F.softmax(logits, dim=1)
-#         factor = torch.pow(1.-scores, self.gamma)
-#         log_score = F.log_softmax(logits, dim=1)
-#         log_score = factor * log_score
-#         loss = self.nll(log_score, labels)
-#         return loss
-
 class NormalLoss(nn.Module):
     def __init__(self,ignore_lb=255, *args, **kwargs):
         super( NormalLoss, self).__init__()
