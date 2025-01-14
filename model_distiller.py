@@ -32,9 +32,6 @@ class ICKDLoss(nn.Module):
 class DistillerNet(nn.Module):
     def __init__(self): #student_feature  teacher_feature
         super(DistillerNet, self).__init__()
-
-
-
         self.distiller_loss = ICKDLoss().cuda()
 
     def forward(self, sf:list, tf:list):
