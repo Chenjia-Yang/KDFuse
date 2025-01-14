@@ -4,7 +4,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 from model_seg import Network3
 import torch
 from torch.utils.data import DataLoader
-from TaskFusion_datasets import Test_dataset
+from Datasets import Test_dataset
 from model_fu import FusionNet
 from tqdm import tqdm
 from skimage import img_as_ubyte
