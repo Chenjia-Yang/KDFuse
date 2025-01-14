@@ -6,7 +6,7 @@ The overall framework of the proposed KDFuse.
 ![image](https://github.com/Chenjia-Yang/KDFuse/blob/main/image/framework.png)
 
 # Pre-trained SegFormer Checkpoint preparation
-Downloading the pre-trained fusion model from the [link](https://pan.baidu.com/s/1SLkqxvxINBkgCE4Lv2_qIQ?pwd=ha7y) and putting it into `'./pretrained/'`.
+Downloading the pre-trained SegFormer from the [link](https://pan.baidu.com/s/1SLkqxvxINBkgCE4Lv2_qIQ?pwd=ha7y) and putting it into `'./pretrained/'`.
 
 # To Test
 1. Download the pre-trained fusion model from [fusion_model](https://pan.baidu.com/s/1LDIAqVsEkHrqc1nMadF8lw?pwd=eyhv) and put it into `'./models/'`.
