@@ -56,7 +56,7 @@ def YCrCb2RGB(input_im):
     return out
 
 
-def test(fusion_model_path='./model.pth'):
+def test(fusion_model_path='./models/model.pth'):
     save_dir = './Results'
 
     if not os.path.isdir(save_dir):
