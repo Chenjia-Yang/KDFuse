@@ -2,10 +2,10 @@
 This is official Pytorch implementation of "KDFuse: A High-Level Vision Task-driven Infrared and Visible Image Fusion Method Based on Cross-Domain Knowledge Distillation"
 
 # Pre-trained SegFormer Checkpoint preparation
-Downloading the pre-trained fusion model from the [link](https://pan.baidu.com/s/1SLkqxvxINBkgCE4Lv2_qIQ?pwd=ha7y) and putting it into'./pretrained/'.
+Downloading the pre-trained fusion model from the [link](https://pan.baidu.com/s/1SLkqxvxINBkgCE4Lv2_qIQ?pwd=ha7y) and putting it into `'./pretrained/'`.
 
 # To Test
-1. Download the pre-trained fusion model from [fusion_model](https://pan.baidu.com/s/1LDIAqVsEkHrqc1nMadF8lw?pwd=eyhv) and put it into'./model/'.
-2. Modify your test path in Datasets.py.
-3. The result data_root are put in './Results/'.
+1. Download the pre-trained fusion model from [fusion_model](https://pan.baidu.com/s/1LDIAqVsEkHrqc1nMadF8lw?pwd=eyhv) and put it into `'./model/'`.
+2. Modify your test path in `Datasets.py`.
+3. The result data_root are put in `'./Results/'`.
 Then running `test.py`
