@@ -73,7 +73,7 @@ class WeTr(nn.Module):
 
 class Network3(nn.Module):
 
-    def __init__(self,backbone, num_classes=9, embedding_dim=256): #pretrained=False)
+    def __init__(self,backbone, num_classes=9, embedding_dim=256):
         super(Network3, self).__init__()
 
         self.fusion_nums = 2
