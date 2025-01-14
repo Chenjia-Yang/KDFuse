@@ -8,4 +8,5 @@ Downloading the pre-trained fusion model from the [link](https://pan.baidu.com/s
 1. Download the pre-trained fusion model from [fusion_model](https://pan.baidu.com/s/1LDIAqVsEkHrqc1nMadF8lw?pwd=eyhv) and put it into `'./models/'`.
 2. Modify your test path in `Datasets.py`.
 3. The result data_root are put in `'./Results/'`.
+   
 Then running `test.py`
