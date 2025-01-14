@@ -1,10 +1,5 @@
-
-
 import torch
 import torch.nn as nn
-
-
-
 
 class ICKDLoss(nn.Module):
     """Inter-Channel Correlation"""
