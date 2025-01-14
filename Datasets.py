@@ -92,26 +92,3 @@ class Test_dataset(Dataset):
 
     def __len__(self):
         return self.length
-    
-
-
-
-
-if __name__ == '__main__':
-    train_dataset = directInject_dataset()
-    print("the training dataset is length:{}".format(train_dataset.length))
-    train_loader = DataLoader(
-        dataset=train_dataset,
-        batch_size=2,
-        shuffle=True,
-        num_workers=2,
-        pin_memory=True,
-        drop_last=True,
-    )
-    train_loader.n_iter = len(train_loader)
-    a = []
-    for it, (image_vis, image_ir, image_fuse,name) in enumerate(train_loader):
-        print(image_vis.size())
-        print(image_ir.size())
-        print(image_fuse.size())
-        break
